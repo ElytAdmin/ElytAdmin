@@ -14,7 +14,7 @@ class AdminServiceProvider extends  ServiceProvider
     public function register()
     {
 
-
+//TEST
             $logger=new Logger('wjh');
             $logger->log('100','elyt/admin');
         $this->app->singleton('Test', function () {
