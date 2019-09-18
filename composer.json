@@ -1,0 +1,33 @@
+{
+    "name": "elyt/phpadmin",
+    "description": "elyt admin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elyt-wangjihua",
+            "email": "2025758718@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+
+        "psr-4":{
+            "Elyt\\Admin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Elyt\\Admin\\AdminServiceProvider"
+            ],
+            "aliases": {
+                "Admin": "Elyt\\Admin\\Facades\\Admin"
+            }
+
+        }
+    }
+
+}
