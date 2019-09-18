@@ -15,7 +15,7 @@
     "autoload": {
 
         "psr-4":{
-            "elyt\\admin\\": "src/"
+            "Elyt\\Admin\\": "src/"
         }
     },
     "extra": {
