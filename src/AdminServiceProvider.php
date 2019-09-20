@@ -1,26 +1,24 @@
 <?php
 
 
-
-namespace  Elyt\Admin;
+namespace Elyt\Admin;
 
 
 use Carbon\Laravel\ServiceProvider;
 use Monolog\Logger;
 
 
-class AdminServiceProvider extends  ServiceProvider
+class AdminServiceProvider extends ServiceProvider
 {
     public function register()
     {
 
 
-            $logger=new Logger('wjh');
-            $logger->log('100','elyt/admin');
-        $this->app->singleton('Test', function () {
-            return new Test();
-        });
-
+        /*
+     $this->app->singleton('Test', function () {
+         return new Test();
+     });
+*/
     }
 
 
