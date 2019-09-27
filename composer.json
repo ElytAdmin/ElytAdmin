@@ -10,13 +10,18 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "encore/laravel-admin": "^1.7"
+    },
 
     "autoload": {
 
         "psr-4":{
             "Elyt\\Admin\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers1.php"
+        ]
     },
     "extra": {
         "laravel": {
