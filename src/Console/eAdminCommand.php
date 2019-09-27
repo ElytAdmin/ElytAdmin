@@ -1,13 +1,21 @@
 <?php
 
+<<<<<<< HEAD
 namespace Elyt\Admin\Console;
+=======
+namespace Encore\Admin\Console;
+>>>>>>> 7167aada815ea74657e1426cf3de7ccc68c3e084
 
 use Encore\Admin\Admin;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 
+<<<<<<< HEAD
 class eAdminCommand extends Command
+=======
+class AdminCommand extends Command
+>>>>>>> 7167aada815ea74657e1426cf3de7ccc68c3e084
 {
     /**
      * The name and signature of the console command.
