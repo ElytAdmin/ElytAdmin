@@ -20,11 +20,7 @@
             "Elyt\\Admin\\": "src/"
         },
         "files": [
-<<<<<<< HEAD
             "src/helpers.php"
-=======
-            "src/helpers1.php"
->>>>>>> 64a6a480f96e4334c523c357fb2457e52f4ef6e5
         ]
     },
     "extra": {
